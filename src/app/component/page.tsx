@@ -50,45 +50,29 @@ const Home = () => {
       <div className="flex flex-col md:flex-row items-center gap-28 mt-16 font-sans">
         <div className="text-white flex flex-col gap-2 p-12 max-w-lg">
           <div className="text-2xl">Hello It&apos;s Me</div>
-<<<<<<< HEAD
           <div className="text-3xl font-bold">Muhammad Nasrullah</div>
-=======
-          <div className="text-3xl font-bold">Subhan Kaladi</div>
->>>>>>> 1da4132b4a8fa085962e2a42c0c1cf3f69485461
           <div className="text-2xl">And I&apos;m <span className="text-cyan-400 auto-type"></span></div>
           <div className="mt-4 leading-relaxed">
             I am currently pursuing Software Engineering with a focus on AI. I am passionate about learning Generative AI and developing solutions using Docker, Ubuntu, and Python.
           </div>
           <div className="flex space-x-4 mt-4">
-<<<<<<< HEAD
             <a href="https://www.facebook.com/nasrullah.kamboh.77" target="_blank" rel="noopener noreferrer">
               <Image src="/fb.webp" alt="fb-logo" width={40} height={40}/> 
             </a>
             <a href="https://www.instagram.com/mnasrullah104/" target="_blank" rel="noopener noreferrer">
-=======
-            <a href="https://www.facebook.com/subhanallahkaladi" target="_blank" rel="noopener noreferrer">
-              <Image src="/fb.webp" alt="fb-logo" width={40} height={40}/> 
-            </a>
-            <a href="https://www.instagram.com/subhan_kaladi/" target="_blank" rel="noopener noreferrer">
->>>>>>> 1da4132b4a8fa085962e2a42c0c1cf3f69485461
               <Image src="/insta.png" alt="insta-logo" width={40} height={40} />
             </a>
           </div>
         </div>
         
         <div className="hover:scale-105 transition-transform duration-300">
-<<<<<<< HEAD
           <Image src="/mna17.png" alt="mna's photo" width={400} height={400} className="w-full h-full"/>
-=======
-          <Image src="/SUBHAN.png" alt="subhan's photo" width={400} height={400} className="w-full h-full"/>
->>>>>>> 1da4132b4a8fa085962e2a42c0c1cf3f69485461
         </div>
       </div>
 
       <Link href="#" className="relative inline-block px-6 py-3 font-bold text-white transition-colors duration-400 bg-teal-400 no-underline overflow-hidden hover:text-white ml-10">
-  Download CV
-</Link>
-
+        Download CV
+      </Link>
     </div>
   );
 };
